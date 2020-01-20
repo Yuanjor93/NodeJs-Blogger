@@ -160,3 +160,9 @@ a {
     background-size: cover;
 }
 
+.LogoutView {
+    background: url("goodbye.jpeg") left bottom;
+    background-size: cover;
+}
+
+

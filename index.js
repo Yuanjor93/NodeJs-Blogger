@@ -29,6 +29,11 @@ app.get("/", (req, res) => {
 app.get("/user", (req, res) => {
     res.render("user", { title: "Profile", userProfile: { nickname: "Pupper" } });
   });
+
+
+  app.get("/logout", (req, res) => {
+    res.render("logout", { title: "logout", userProfile: { nickname: "Pupper" } });
+  });
   
 /**
  * Server Activation
